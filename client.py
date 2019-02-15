@@ -34,7 +34,11 @@ def receiving(name, sock):
 host = socket.gethostbyname(socket.gethostname())
 port = 0
 
+<<<<<<< HEAD
 server = ("172.22.14.27", 9090)
+=======
+server = ("...", 9090)
+>>>>>>> 04811787ff0da8609ef544e21063c8dff4bbc6c4
 
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 s.bind((host, port))
